@@ -1,0 +1,27 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[[source]]
+url = ""
+verify_ssl = false
+name = "n_pypi"
+
+[dev-packages]
+
+[packages]
+socutils = {version = "==1.5.10", index = "n_pypi"}
+python-crontab = "==2.5.1"
+kazoo = "==2.8.0"
+pyhive = "==0.6.3"
+confluent-kafka = "==1.5.0"
+sasl = "==0.2.1"
+thrift = "==0.4.2"
+thrift-sasl = "==0.4.2"
+SQLAlchemy = "==1.3.23"
+python-dateutil = "==2.8.1"
+
+
+[requires]
+python_version = "3.7"

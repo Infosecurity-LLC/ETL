@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[[source]]
+url = ""
+verify_ssl = false
+name = "n_pypi"
+
+[dev-packages]
+
+[packages]
+socutils = {version = "==1.5.10", index = "n_pypi"}
+kazoo = "==2.8.0"
+pyhive = "==0.6.3"
+confluent-kafka = "==1.5.0"
+sasl = "==0.2.1"
+thrift = "==0.13.0"
+thrift-sasl = "==0.4.2"
+
+
+[requires]
+python_version = "3.7"
